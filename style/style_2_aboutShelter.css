@@ -1,0 +1,156 @@
+/********ABOUT************/
+.wrapperBlock2 {
+    width: 100%;
+    background: #FFFFFF;
+}
+
+.aboutShelter {
+    max-width: 1200px;
+    margin: 80px auto 100px auto;
+    display: flex;
+    min-height: 408px;
+}
+
+.aboutShelter__img {
+    margin-left: 14.5%;
+    width: 25%;
+    height: 408px;
+
+    background-image: url("../assets/images/about-pets.jpg");
+    background-repeat: no-repeat;
+    background-size: 100%;
+    margin-right: 10%;
+}
+
+.aboutShelter__txt {
+    margin: 14px 0;
+    width: 35.8%;
+    min-height: 380px;
+}
+
+.aboutShelter__txt h3 {
+    font-family: 'Georgia';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 35px;
+    line-height: 130%;
+    letter-spacing: 0.06em;
+    color: #545454;
+    width: 86%;
+    text-align: left;
+}
+
+.aboutShelter__txt p {
+    font-family: 'Arial';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 15px;
+    line-height: 160%;
+    color: #4C4C4C;
+    margin-top: 25px;
+}
+
+/************ADAPTIVE*************************/
+@media screen and (max-width: 1000px) {
+
+    .aboutShelter {
+        max-width: 1200px;
+        flex-direction: column-reverse;
+    }
+
+    .aboutShelter__txt {
+        width: 56%;
+        margin: 0 auto 80px;
+    }
+
+    .aboutShelter__txt h3 {
+        width: 70%;
+    }
+
+    .aboutShelter__img {
+        margin: 0 auto;
+        width: 30%;
+    }
+}
+
+@media screen and (max-width: 768px) {
+    .aboutShelter {
+        padding-left: 7px;
+    }
+
+    .aboutShelter__txt h3 {
+        width: 75%;
+        margin-top: 3px;
+    }
+
+    .aboutShelter__txt {
+        width: 57%;
+    }
+
+    .aboutShelter__img {
+        margin: 0 auto;
+        width: 40.1%;
+    }
+
+
+}
+
+@media screen and (max-width: 700px) {
+    .aboutShelter {
+        margin: 0;
+        padding: 45px 10px;
+    }
+
+    .aboutShelter__txt {
+        width: 77%;
+        margin-bottom: 52px;
+    }
+
+    .aboutShelter__txt h3 {
+        width: 100%;
+        margin: 0 auto 25px;
+        text-align: center;
+
+    }
+
+    .aboutShelter__img {
+        margin: 0 auto;
+
+    }
+
+}
+
+@media screen and (max-width: 500px) {
+    .aboutShelter__img {
+        width: 60%;
+    }
+}
+
+@media screen and (max-width: 320px) {
+    .aboutShelter__txt {
+        width: 270px;
+        margin-bottom: 42px;
+    }
+
+    .aboutShelter__txt h3 {
+        width: 100%;
+        margin: 0 auto;
+        font-size: 25px;
+    }
+
+    .aboutShelter__txt p {
+        width: 100%;
+        font-size: 15px;
+        font-size: 15px;
+        line-height: 160%;
+        margin-top: 22px;
+        text-align: justify;
+    }
+
+    .aboutShelter__img {
+        margin: 0 auto;
+        width: 260px;
+        height: 353px;
+    }
+
+}
