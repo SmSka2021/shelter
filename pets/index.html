@@ -1,0 +1,96 @@
+
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+    <link rel="stylesheet" href="./style.css">
+
+    <title>Our Pets</title>
+</head>
+<body class="body" id="body">
+    <header class="header">
+        <div class="header__fix">
+            <div class="header__content _wrapper">
+                <div class="header__logo logo-dark">
+                    <a class="logo-dark__link" href="../index.html" >
+                        <h1 class="logo-dark__title">Cozy House</h1>
+                        <div class="logo-dark__subtitle">Shelter for pets in Boston</div>
+                    </a>
+                </div>
+
+                <div class="header__burger burger">
+                    <div class="burger__content_dark">
+                        <span class="burger__line_dark"></span>
+                    </div>
+                </div>
+                        
+                <nav class="header__menu_light menu menu__overlay">
+                    <div class="menu__logo logo-dark">
+                        <a class="logo-dark__link" href="../index.html" >
+                            <h1 class="logo-dark__title">Cozy House</h1>
+                            <div class="logo-dark__subtitle">Shelter for pets in Boston</div>
+                        </a>
+                    </div>
+                    <ul class="menu__list menu__back_light">
+                        <li><a class="menu__link_dark" href="../index.html#about" >About the shelter</a></li>
+                        <li><a class="menu__link_dark-active" href="#top">Our pets</a></li>
+                        <li><a class="menu__link_dark" href="../index.html#help" >Help the shelter</a></li>
+                        <li><a class="menu__link_dark" href="#footer">Contacts</a></li>
+                    </ul>
+                </nav>
+            </div>
+        </div>
+    </header>
+
+    <main>
+        <div class="pagination">
+            <div class="pagination__content _wrapper">
+                <div class="pagination__title">Our friends who<br>are looking for a house</div>
+               <div class="pagination__cards card" id="pagination__cards"></div>
+                <div class="pagination__btns">
+                    <div class="pagination__btn_first btn-round_disabled">&lt;&lt;</div>
+                    <div class="pagination__btn_prev btn-round_disabled">&lt;</div>
+                    <div class="pagination_btn_page-number btn-round_active">1</div>
+                    <div class="pagination__btn_next btn-round" disabled = "false">&gt;</div>
+                    <div class="pagination__btn_last btn-round">&gt;&gt;</div>
+                </div>
+            </div>
+        </div>
+        <div class="hystmodal" id="myModal">   </div>
+    </main>
+
+    <footer class="footer" id="footer">
+        <div class="footer__content _wrapper">
+            <div class="footer__contacts contacts">
+                <div class="contacts__title">For questions and suggestions</div>
+                <a class="contacts__content" href="mailto:email@shelter.com" target="blank">
+                    <div class="contacts__email-icon"><img src="../assets/icons/icon-email.svg" alt="icon-email"></div>
+                    <p>email@shelter.com</p>
+                </a>
+                <a class="contacts__content" href="tel:+13 674 567 75 54" target="blank">
+                    <div class="contacts__phone-icon"><img src="../assets/icons/icon-phone.svg" alt="icon-phone"></div>
+                    <p>+13 674 567 75 54</p>
+                </a>
+            </div>
+            <div class="footer__address address">
+                <div class="address__title">We are waiting for your visit</div>
+                <a class="address__content" href="https://goo.gl/maps/eSvNezddiXSQxyJU7" target="blank">
+                    <div class="address__icon"><img src="../assets/icons/icon-marker1.svg" alt="icon-marker"></div>
+                    <p>1 Central Street, Boston (entrance from the store)</p>
+                </a>
+                <a class="address__content" href="https://goo.gl/maps/7n6ChMXw2FxwYU4F8" target="blank">
+                    <div class="address__icon"><img src="../assets/icons/icon-marker.svg" alt="icon-marker"></div>
+                    <p>18 South Park, London </p>
+                </a>
+            </div>
+            <div class="footer__img"><img src="../assets/images/footer-puppy.png" alt="image-footer-puppy"></div>
+        </div>
+    </footer>
+
+    <script src="./script.js"></script>
+</body>
+
+</html>
